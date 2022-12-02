@@ -1,4 +1,4 @@
-"""Advent of Code 2022, 1st Dec. Part 1."""
+"""Advent of Code 2022, 1st Dec."""
 from itertools import groupby
 
 cal_list = []
