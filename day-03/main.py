@@ -20,7 +20,7 @@ def get_common_items(rucksack: tuple) -> str:
     """Return a string with the common items between two sides of rucksack.
 
     Uses Python sets with the 'intersection' method (finds common values between
-    two sets)
+    two sets). Convert the resulting set to a string.
     """
     first, second = rucksack
     return "".join(set(first).intersection(second))
@@ -51,9 +51,9 @@ def group_by_3(data: list[str]) -> list[list[str, str, str]]:
 def get_common_in_group(group: list[str]) -> str:
     """Return common items in each group of 3 rucksacks.
 
-    We use Python 'set' so need to cast to a list and return first item only.
+    We use Python 'set' again then convert to a string.
     """
-    return list(set.intersection(*map(set, group)))[0]
+    return "".join(set.intersection(*map(set, group)))
 
 
 def part1(raw_data: list[str]) -> None:
