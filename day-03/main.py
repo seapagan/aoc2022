@@ -58,16 +58,16 @@ def get_common_in_group(group: list[str]) -> str:
 
 def part1(raw_data: list[str]) -> None:
     """Calculate the result for part 1 of the challenge."""
-    common: list[int] = []
+    priorites: list[int] = []
     for rucksack in raw_data:
         common_value = get_common_items(split_rucksack(rucksack))
-        common.append(get_item_priority(common_value))
-    print(f"The sum of all priorities for Part 1 is {sum(common)}")
+        priorites.append(get_item_priority(common_value))
+    print(f"The sum of all priorities for Part 1 is {sum(priorites)}")
 
 
 def part2(raw_data: list[str]) -> None:
     """Calculate the result for part 2 of the challenge."""
-    priorities = []
+    priorities: list[int] = []
     grouped_rucksacks = group_by_3(raw_data)
     for group in grouped_rucksacks:
         badge = get_common_in_group(group)
