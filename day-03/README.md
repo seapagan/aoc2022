@@ -28,7 +28,7 @@ jqHRNqRjqzjGDLGLrsFMfFZSrLrFZsSL\
 PmmdzqPrVvPwwTWBwg\
 wMqvLMZHhHMvwLHjbvcjnnSBnvTQFn\
 ttgJtRGJQctTZtZT\
-CrZsJsPPZsGzwwsLwLmpwMDw\
+CrZsJsPPZsGzwwsLwLmpwMDw
 
 - The first rucksack contains the items `vJrwpWtwJgWrhcsFMMfFFhFp`, which means
   its first compartment contains the items `vJrwpWtwJgWr`, while the second
@@ -70,13 +70,13 @@ Every set of three lines in your list corresponds to a single group, but each gr
 
 vJrwpWtwJgWrhcsFMMfFFhFp\
 jqHRNqRjqzjGDLGLrsFMfFZSrLrFZsSL\
-PmmdzqPrVvPwwTWBwg\
+PmmdzqPrVvPwwTWBwg
 
 And the second group's rucksacks are the next three lines:
 
 wMqvLMZHhHMvwLHjbvcjnnSBnvTQFn\
 ttgJtRGJQctTZtZT\
-CrZsJsPPZsGzwwsLwLmpwMDw\
+CrZsJsPPZsGzwwsLwLmpwMDw
 
 In the first group, the only item type that appears in all three rucksacks is lowercase r; this must be their badges. In the second group, their badge item type must be Z.
 
