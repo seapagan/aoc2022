@@ -7,12 +7,13 @@ def load_data() -> str:
         return data
 
 
-def find_answer(signal: str, width):
+def find_answer(signal: str, width: int) -> int | None:
     """Find the packet marker position for the input signal."""
     for index in range(len(signal)):
         sample = signal[index : index + width]
         if len(sample) == len(set(sample)):
             return index + width
+    return None
 
 
 signal = load_data()
